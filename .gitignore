@@ -1,0 +1,89 @@
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Environment Variables
+# =========================
+.env
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Data
+# =========================
+data/raw/*
+data/processed/*
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# Trained Models
+# =========================
+models/*
+!models/.gitkeep
+
+# PyTorch model files
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Generated Outputs
+# =========================
+outputs/*
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
+
+# =========================
+# Experiment Tracking
+# =========================
+mlruns/
+experiments/*
+
+# Keep experiment directory
+!experiments/.gitkeep
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python Packaging
+# =========================
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Jupyter generated files
+# =========================
+*.ipynb_checkpoints
